@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgoKcg72j00.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+body{
+    background-color: #e0e0e0;
+}
+header{
+    background-color: rosybrown;
+}
+
+
+.btn-light{ 
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+  
+}
+.booknow{
+    height: 500px;
+  
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+   /* padding: 30px; */
+   /* padding-left: 10%; */
+ 
+     
+
+}
+.slide{
+    height: 500px;
+    width: 40%;
+    position: absolute;
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg);
+    animation: slider 10s infinite linear;
+    border: solid;
+   
+    background-color: #f1f1f1;
+    background-size: 100% 100%;
+
+}
+@keyframes slider{
+    0%{background-image: url(https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg);  }
+    35%{background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/01/fa/51/70/r-the-spa.jpg);}
+    75%{background-image: url(https://media-cdn.tripadvisor.com/media/photo-w/0e/b2/64/3f/radisson-blu-plaza-delhi.jpg);}
+    
+}
+
+input{
+    float: right;
+}
+.btn-outline-secondary{
+    
+}
+
+h4:after{ 
+    display: flex;
+    float: left;
+    content: ' \2605';
+    color: gold;
+    
+  
+}
+.description{
+   margin-left: 4%;
+   margin-bottom: 2%;
+}
+
+footer{
+    width: 100%;
+   display: flex;
+    margin: 0%;
+  
+ 
+    background-color: rosybrown;
+}
+nav{
+    /* margin-top: 15px; */
+    float: right;
+}
+article{
+    padding-bottom: 10px;
+    text-align: center;
+}
+.btn-success{
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+.socialmedia{
+    height: 26px;
+    width: 70px;
+    float: right;
+    margin-top: 20px;
+   
+}
+form{
+   margin-right: 20%;
+    float: right;
+   
+    
+}

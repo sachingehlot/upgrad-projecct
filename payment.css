@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgoKcg72j00.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+body{
+    background-color: #e0e0e0;
+    margin:0;
+}
+header{
+    background-color: rosybrown;
+    
+}
+.btn-light{ 
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+   
+}
+.container{
+    background-color: rgb(132,136,139);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left:25%;
+    margin-right: 25%;
+    border: solid;
+   
+}
+.detail{
+    float: right;
+    padding-right:80px;
+   
+}
+
+#blu{
+    height: 300px;
+    width: 270px;
+    
+  
+}
+.info{
+    height: 190px;
+    margin: 2%; 
+    padding: 2%;
+    margin-bottom: 10%;
+    background-color:rosybrown;
+    border-radius: 5%;
+    border:black ;
+}
+.last{
+    float: left;
+    width: 50%;
+
+}
+footer{
+    width: 100%;
+   display: flex;
+    margin: 0%;
+ 
+    background-color: rosybrown;
+}
+nav{
+    /* margin-top: 15px; */
+    float: right;
+}
+article{
+    padding-bottom: 10px;
+    text-align: center;
+}
+.btn-success{
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+.socialmedia{
+    height: 26px;
+    width: 70px;
+    float: right;
+    margin-top: 20px;
+   
+}

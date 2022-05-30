@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgoKcg72j00.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+body{
+    margin: 0;
+    background: color #e0e0e0;;
+}
+
+.list-logo{
+    background-color: rosybrown;
+}
+.btn-light{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.list{
+    text-align: center;
+    margin-top: 20px;
+}
+.hotal{
+    
+    display: inline-block;
+background-color:lightgray;
+height: auto;
+width: 40%;
+margin:2%;
+}
+.hotal:hover{
+    background-color: rosybrown;
+}
+.hotal img {
+    height: 150px;
+    width: 150px;
+}
+
+h4{
+    float: right;
+  
+    padding-top: 10px;
+    margin-right: 20px;
+}
+
+label:after{ 
+    display: flex;
+    float: left;
+    content: ' \2605';
+    color: gold;
+    
+  
+}
+#star5::after{
+    content: ' \2605';
+    color:black
+}
+
+
+footer{
+    width: 100%;
+   display: flex;
+    margin: 0%;
+    margin-top: 15%;
+    background-color: rosybrown;
+}
+nav{
+    /* margin-top: 15px; */
+    float: right;
+}
+article{
+    padding-bottom: 10px;
+    text-align: center;
+}
+.btn-success{
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+.socialmedia{
+    height: 26px;
+    width: 70px;
+    float: right;
+    margin-top: 20px;
+   
+}
